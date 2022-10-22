@@ -1,0 +1,19 @@
+fn abc {
+	p("abc :)")
+}
+
+fn mimeP(obj) {
+	p(obj)
+}
+
+p("direct print")
+
+p("Doing mime print")
+mimeP("mime print")
+p("Done mime print")
+
+
+abc()
+
+a = 123
+p(a)
